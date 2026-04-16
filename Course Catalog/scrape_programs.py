@@ -6,6 +6,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
@@ -17,6 +18,7 @@ CATOID = 29
 LISTING_URL = f"{BASE}/content.php?catoid={CATOID}&navoid=1648"
 PROGRAM_URL = f"{BASE}/preview_program.php?catoid={CATOID}&poid={{poid}}&returnto=1648"
 DELAY = 0.5
+BATCH_SIZE = 5
 
 DATA_DIR = Path(__file__).parent / "Program Details"
 DATA_DIR.mkdir(exist_ok=True)
@@ -78,33 +80,54 @@ def main() -> None:
     already = {f.stem.split("_poid")[0] for f in HTML_DIR.glob("*.html")}
     remaining = [p for p in programs if sanitize_filename(p["name"]) not in already]
 
-    pbar = tqdm(
-        remaining,
-        desc="Downloading programs",
-        unit="program",
-        initial=len(programs) - len(remaining),
-        total=len(programs),
-    )
-    for prog in pbar:
+    remaining = [p for p in programs if p["poid"] not in done]
+
+    def fetch_one(prog: dict) -> tuple[dict, requests.Response | None]:
         poid = prog["poid"]
-        pbar.set_postfix_str(prog["name"][:40])
         url = PROGRAM_URL.format(poid=poid)
-        r = None
         for attempt in range(1, 4):
             try:
                 r = SESSION.get(url, timeout=30)
                 r.raise_for_status()
-                break
+                return prog, r
             except requests.RequestException as e:
                 wait = attempt * 5
-                tqdm.write(f"  error (attempt {attempt}/3): {e}; waiting {wait}s")
+                tqdm.write(f"  error poid={poid} (attempt {attempt}/3): {e}; waiting {wait}s")
                 time.sleep(wait)
-        if r is None or not r.ok:
-            tqdm.write(f"  SKIPPED poid={poid} ({prog['name']})")
-            continue
+        return prog, None
 
-        filename = f"{sanitize_filename(prog['name'])}_poid{poid}.html"
-        (HTML_DIR / filename).write_text(r.text, encoding="utf-8")
+    pbar = tqdm(total=len(programs), desc="Scraping programs", unit="program",
+                initial=len(done))
+    for batch_start in range(0, len(remaining), BATCH_SIZE):
+        batch = remaining[batch_start : batch_start + BATCH_SIZE]
+        with ThreadPoolExecutor(max_workers=BATCH_SIZE) as executor:
+            futures = {executor.submit(fetch_one, prog): prog for prog in batch}
+            for future in as_completed(futures):
+                prog, r = future.result()
+                if r is None or not r.ok:
+                    tqdm.write(f"  SKIPPED poid={prog['poid']} after 3 failures")
+                    pbar.update(1)
+                    continue
+
+                requirements = extract_program(r.text)
+                degree_type = classify_degree(prog["name"])
+
+                requirements = re.sub(r"[\t\r]+", " ", requirements)
+                requirements = re.sub(r"\n{3,}", "\n\n", requirements)
+                requirements = re.sub(r" {2,}", " ", requirements).strip()
+
+                results.append({
+                    "poid": prog["poid"],
+                    "department": prog["department"],
+                    "name": prog["name"],
+                    "degree_type": degree_type,
+                    "requirements": requirements,
+                })
+                pbar.update(1)
+
+        if len(results) % 50 < BATCH_SIZE:
+            RAW_FILE.write_text(json.dumps(results, indent=2))
+
         time.sleep(DELAY)
 
     pbar.close()

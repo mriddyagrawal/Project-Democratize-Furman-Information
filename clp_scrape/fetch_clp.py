@@ -4,36 +4,19 @@ The CLP calendar is powered by 25Live (CollegeNet) which exposes a JSON API.
 We fetch the last 3 months of events and extract: name, date, description.
 """
 
-import html
 import json
-import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import httpx
 
-from shared.rate_limit import polite_delay
+from shared.text import clean_text, strip_html
 
 CALENDAR_API = "https://25livepub.collegenet.com/calendars/clp.json"
 HERE = Path(__file__).parent
 OUTPUT_DIR = HERE / "data"
 MONTHS_BACK = 3
 MONTHS_FORWARD = 3
-
-
-def _clean_text(text: str) -> str:
-    """Decode HTML entities like &quot; &ndash; &#8217; into plain text."""
-    return html.unescape(text).strip()
-
-
-def _strip_html(text: str) -> str:
-    """Remove HTML tags and decode entities into clean plain text."""
-    text = html.unescape(text)
-    text = re.sub(r"<br\s*/?>", "\n", text)
-    text = re.sub(r"</p>\s*<p>", "\n\n", text)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
 
 
 def fetch_clp_events() -> list[dict]:
@@ -62,9 +45,9 @@ def fetch_clp_events() -> list[dict]:
             continue
 
         events.append({
-            "name": _clean_text(item.get("title", "")),
-            "date": _clean_text(item.get("dateTimeFormatted", "")),
-            "description": _strip_html(item.get("description") or ""),
+            "name": clean_text(item.get("title", "")),
+            "date": clean_text(item.get("dateTimeFormatted", "")),
+            "description": strip_html(item.get("description") or ""),
             "_sort_key": item.get("startDateTime", ""),
         })
 

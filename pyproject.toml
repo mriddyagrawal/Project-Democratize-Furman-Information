@@ -13,3 +13,6 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "selectolax>=0.4.7",
 ]
+
+[project.scripts]
+furman-directory = "furman_directory.main:main"

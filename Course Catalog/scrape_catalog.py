@@ -180,7 +180,12 @@ def extract_course(html: str, coid: str) -> dict | None:
         r"^(Prerequisite[s]?:?\s*)+", "", prereq, flags=re.IGNORECASE
     ).strip()
 
-    description = " ".join(desc_lines).strip()
+    description = re.sub(r"[\n\t\r]+", " ", " ".join(desc_lines))
+    description = re.sub(r"\s{2,}", " ", description).strip()
+    prereq = re.sub(r"[\n\t\r]+", " ", prereq)
+    prereq = re.sub(r"\s{2,}", " ", prereq).strip()
+    title = re.sub(r"[\n\t\r]+", " ", title).strip()
+    ger = re.sub(r"[\n\t\r]+", " ", ger).strip()
 
     return {
         "coid": coid,

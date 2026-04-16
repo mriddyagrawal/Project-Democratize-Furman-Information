@@ -1,30 +1,17 @@
 """Stage 1: Discover all organizations from Furman Engage API."""
 
-import html
 import json
-import re
 from pathlib import Path
 
 import httpx
 
 from shared.rate_limit import polite_delay, request_with_retry
+from shared.text import clean_text, strip_html
 
 BASE = "https://furman.campuslabs.com/engage/api/discovery/search/organizations"
 PAGE_SIZE = 25
 HERE = Path(__file__).parent
 OUTPUT = HERE / "data" / "orgs.json"
-
-
-def _strip_html(text: str | None) -> str:
-    """Remove HTML tags and decode entities into clean plain text."""
-    if not text:
-        return ""
-    text = html.unescape(text)
-    text = re.sub(r"<br\s*/?>", "\n", text)
-    text = re.sub(r"</p>\s*<p>", "\n\n", text)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
 
 
 def fetch_all_orgs() -> list[dict]:
@@ -55,13 +42,12 @@ def fetch_all_orgs() -> list[dict]:
                     "status": item.get("Status", ""),
                     "visibility": item.get("Visibility", ""),
                     "category_names": item.get("CategoryNames", []),
-                    "description": _strip_html(item.get("Description", "")),
-                    "summary": (item.get("Summary") or "").strip(),
+                    "description": strip_html(item.get("Description", "")),
+                    "summary": clean_text(item.get("Summary")),
                 })
 
             print(f"  fetched {len(orgs)} orgs (skip={skip})")
             skip += PAGE_SIZE
-            polite_delay(0.5)
 
     return orgs
 
