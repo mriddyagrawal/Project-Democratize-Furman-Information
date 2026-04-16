@@ -1,0 +1,88 @@
+[
+  {
+    "id": "10067744",
+    "name": "Trans Art Exhibition",
+    "description": "Art exhibition featuring 7 trans and gender non-conforming student artists. There will be a reception on Wednesday March 27, from 6-8 PM",
+    "location": "Trone Upstairs Atrium",
+    "starts_on": "2024-03-25T12:00:00+00:00",
+    "ends_on": "2024-03-28T21:00:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [
+      "Diversity and Inclusion "
+    ],
+    "theme": "Arts",
+    "visibility": "Public"
+  },
+  {
+    "id": "9921789",
+    "name": "FPA Meeting",
+    "description": "Valentine's Day party!",
+    "location": "fur 126",
+    "starts_on": "2024-02-16T00:30:00+00:00",
+    "ends_on": "2024-02-16T01:30:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [
+      "Diversity and Inclusion "
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9603637",
+    "name": "Transgender Day of Remembrance - Candlelight Vigil",
+    "description": "Candlelight Vigil to honor members of the Trans community who have been killed by violence this year.",
+    "location": "Joseph Vaughn Plaza",
+    "starts_on": "2023-11-20T22:30:00+00:00",
+    "ends_on": "2023-11-20T23:00:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [
+      "Diversity and Inclusion "
+    ],
+    "theme": "Cultural",
+    "visibility": "Public"
+  },
+  {
+    "id": "8464309",
+    "name": "FPA Disco Dance!",
+    "description": "Join the Furman Pride Alliance in our celebration of LGBTQIA History Month with music, dancing, and snacks! Dress code is whatever makes you feel like your snazziest self!",
+    "location": "Watkins Room",
+    "starts_on": "2022-10-21T23:00:00+00:00",
+    "ends_on": "2022-10-22T01:30:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [
+      "Diversity and Inclusion "
+    ],
+    "theme": "Cultural",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698032",
+    "name": "EROS Meeting",
+    "description": "This week's topic: Things I Always Wanted To Know But Was Too Afraid To Ask... Have any questions you've been dying to ask, but you didn't know how people would react? Pitch them now in an anonymous, embarassment-free environment...as long as it's sincere, hardly anything is out of bounds! Join us for our meeting in Furman Hall 201 at 7:00pm this Thursday. We'd love to see your smiling faces, and, as always, feel free to bring a friend! Love always, EROS",
+    "location": "Furman Hall 201",
+    "starts_on": "2012-09-13T23:00:00+00:00",
+    "ends_on": "2012-09-14T00:30:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1695535",
+    "name": "EROS Open Forum!",
+    "description": "Have ideas for EROS's future, including meeting topics, social events, co-sponsorships, and/or CLPs? Need to get a suggestion off your chest? Come tell us! Join us in Furman Hall 201 at 7:00pm this Thursday. We'd love to see your smiling faces, and feel free to bring a friend! Love always, EROS",
+    "location": "Furman Hall 201",
+    "starts_on": "2012-08-30T23:00:00+00:00",
+    "ends_on": "2012-08-31T02:00:00+00:00",
+    "org_name": "Furman Pride Alliance",
+    "org_id": 183353,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

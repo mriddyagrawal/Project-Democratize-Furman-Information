@@ -1,0 +1,123 @@
+[
+  {
+    "id": "12353698",
+    "name": "Pi Kappa Phi Chapter Meeting",
+    "description": "Our chapter will meet to discuss weekly programming, upcoming events, and review the past week.",
+    "location": "Watkins Room",
+    "starts_on": "2026-04-05T23:00:00+00:00",
+    "ends_on": "2026-04-06T00:00:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "11837374",
+    "name": "Pi Kapp Halloween Party",
+    "description": "A Halloween party for brothers and their invites",
+    "location": "Fieldhouse TR",
+    "starts_on": "2025-11-02T00:30:00+00:00",
+    "ends_on": "2025-11-02T03:30:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "10918038",
+    "name": "Pi Kappa Phi Mid-Week Executive Council Meeting",
+    "description": "A mid week meeting for the Executive Council to discuss business.",
+    "location": "Trone 208B",
+    "starts_on": "2025-02-13T19:30:00+00:00",
+    "ends_on": "2025-02-13T20:30:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "10758829",
+    "name": "Pi Kappa Phi Christmas Party",
+    "description": "A Christmas Party in Watkins for Brothers and their dates.",
+    "location": "Watkins Room",
+    "starts_on": "2024-12-07T00:00:00+00:00",
+    "ends_on": "2024-12-07T01:30:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "10497685",
+    "name": "Pi Kappa Phi Earth Wind and Fire Party",
+    "description": "A 70\u2019s/disco themed party at field house sports bar for brothers and their invites.",
+    "location": "Fieldhouse Sports Bar",
+    "starts_on": "2024-09-22T01:00:00+00:00",
+    "ends_on": "2024-09-22T03:45:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9628298",
+    "name": "Pie a Pi Kapp",
+    "description": "Brothers of Pi Kappa Phi will accept donations in order for their friend's and peers to pie them in the face with whipped cream.",
+    "location": "Trone Upper Patio",
+    "starts_on": "2023-11-27T16:00:00+00:00",
+    "ends_on": "2023-11-27T20:00:00+00:00",
+    "org_name": "Pi Kappa Phi - Delta Chapter",
+    "org_id": 183306,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "7053437",
+    "name": "Pi Kappa Phi Philanthropy Tabling/Ticket Sales",
+    "description": "Pi Kappa Phi will be selling tickets to an event we will host on that Friday in order to raise money for our philanthropy: the Ability Experience.",
+    "location": "Trone Student Center",
+    "starts_on": "2021-04-15T14:00:00+00:00",
+    "ends_on": "2021-04-15T18:00:00+00:00",
+    "org_name": "Pi Kappa Phi",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "7053442",
+    "name": "Pi Kappa Phi Penny Wars Tabling",
+    "description": "Pi Kappa Phi will be tabling inside Trone outside of the PDen to collect money for our philanthropy: the Ability Experience.",
+    "location": "Trone Student Center",
+    "starts_on": "2021-04-13T12:00:00+00:00",
+    "ends_on": "2021-04-14T00:00:00+00:00",
+    "org_name": "Pi Kappa Phi",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "1696308",
+    "name": "Ultimate Frisbee vs. Bounty Hunters",
+    "description": "",
+    "location": "NV Fields",
+    "starts_on": "2012-09-25T21:30:00+00:00",
+    "ends_on": "2012-09-25T22:30:00+00:00",
+    "org_name": "Pi Kappa Phi",
+    "org_id": 183306,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

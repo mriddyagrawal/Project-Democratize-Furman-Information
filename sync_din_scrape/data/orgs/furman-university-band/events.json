@@ -1,0 +1,17 @@
+[
+  {
+    "id": "7423608",
+    "name": "Furman Band Extravanganza",
+    "description": "To kick off Family Weekend, the annual Band Extravaganza will be on Friday, September 24th at 7:30 PM! Come to McAlister Auditorium to hear your favorite Paladin Regiment tunes and celebrate with our band family!",
+    "location": "McAlister Auditorium",
+    "starts_on": "2021-09-24T23:30:00+00:00",
+    "ends_on": "2021-09-25T00:30:00+00:00",
+    "org_name": "Furman Bands",
+    "org_id": 183359,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Arts",
+    "visibility": "Public"
+  }
+]

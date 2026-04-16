@@ -1,0 +1,250 @@
+[
+  {
+    "id": "12430858",
+    "name": "Recruitment Retreat",
+    "description": "Recruitment training for the Eta Phi chapter.",
+    "location": "Watkins",
+    "starts_on": "2026-12-20T15:00:00+00:00",
+    "ends_on": "2026-12-20T20:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  },
+  {
+    "id": "11972851",
+    "name": "Alpha Delta Pi Executive Committee Meeting",
+    "description": "Our weekly executive meeting before chapter.",
+    "location": "Furman 214",
+    "starts_on": "2026-02-01T22:00:00+00:00",
+    "ends_on": "2026-02-01T23:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "11597294",
+    "name": "Pie a Pi- Alpha Delta Pi",
+    "description": "Alpha Delta Pi will host an on campus opportunity for community members to pie sisters and fellow campus members, with all money benefitting the Ronald McDonald House Charities of the Carolinas.",
+    "location": "Trone Student Center Patio",
+    "starts_on": "2025-09-25T15:00:00+00:00",
+    "ends_on": "2025-09-25T17:45:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Community Service"
+    ],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "11597351",
+    "name": "Get Charmed by RMHC- Alpha Delta Pi",
+    "description": "Alpha Delta Pi in collaborating with the Traveling Penny GVL will provide a charm bar (via charm truck) on campus and available for community members to create their own charm bracelet/necklace. 10% of all proceed sales will go to the Ronald McDonald House Charities of the Carolinas.",
+    "location": "James B Duke Library Patio",
+    "starts_on": "2025-09-24T15:00:00+00:00",
+    "ends_on": "2025-09-24T17:45:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "11181243",
+    "name": "Formal",
+    "description": "Our formal will be held from 6-10 pm on March 21, 2025, at the Historic Hampton House 1908.",
+    "location": "Historic Hampton House 1908",
+    "starts_on": "2025-03-21T22:00:00+00:00",
+    "ends_on": "2025-03-22T02:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "10758833",
+    "name": "Holiday Decorating for RMHC",
+    "description": "Decorating the RMHC house for the holidays",
+    "location": "RMHC carolinas",
+    "starts_on": "2024-12-07T21:00:00+00:00",
+    "ends_on": "2024-12-07T23:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "10231949",
+    "name": "ADPi chapter meetings",
+    "description": "Chapter Meeting",
+    "location": "Furman 214",
+    "starts_on": "2024-11-10T22:00:00+00:00",
+    "ends_on": "2024-11-10T23:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "10490862",
+    "name": "Wednesday Walks",
+    "description": "Every Wednesday sisters are invited to go on a walk with one another at 7:45 am. We are planning to meet in North Village behind D.\u00a0Running first thing in the morning can lead to spikes in cortisol causing headaches, high blood pressure, and mood changes. Morning walks have many health benefits such as regulating one's sleep schedule, improving one's mood and decreasing anxiety, increasing energy, increasing brain function, etc. We are using this as a stress-reliever for our sisters!",
+    "location": "Furman Lake Trail",
+    "starts_on": "2024-10-23T11:45:00+00:00",
+    "ends_on": "2024-10-23T12:45:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "Athletics",
+    "visibility": "Public"
+  },
+  {
+    "id": "10530332",
+    "name": "Diamond Dash - Alpha Delta Pi Philanthropy Week",
+    "description": "On October 22nd, we will have the Diamond Dash. This event is a run/walk around Furman\u2019s lake. We are hoping to have Alpha Delta Pi alumnae come out and participate along with Furman\u2019s campus. This event will be fundraised either by ticket sales or crowd change. We are planning to have waivers for this day. Check in will start at 2 pm. We do not believe the event will take until 6 pm but wanted to give extra time for people to socialize and take pictures, while allowing plenty of time to clean up at the end.",
+    "location": "Trone Student Center Hill Courtyards 1 and 2",
+    "starts_on": "2024-10-22T17:00:00+00:00",
+    "ends_on": "2024-10-22T22:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "10530113",
+    "name": "Diamond Dash - Alpha Delta Pi Philanthropy Week",
+    "description": "On Tuesday, we will have the Diamond Dash. This event is a run/walk around Furman\u2019s lake. We are hoping to have alumnae come out and participate along with Furman\u2019s campus. This event will be fundraised either by ticket sales or crowd change. We are planning to have waivers for this day. We have the space reserved from 1-6:30 pm; however, the event will start at 2 pm and go until people are done with their run/walk around the Furman lake.",
+    "location": "Trone Student Center Hill Courtyards 1 and 2",
+    "starts_on": "2024-10-22T18:00:00+00:00",
+    "ends_on": "2024-10-22T19:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "10231942",
+    "name": "ADPi chapter meetings",
+    "description": "Chapter Meeting",
+    "location": "Furman 214",
+    "starts_on": "2024-09-22T21:00:00+00:00",
+    "ends_on": "2024-09-22T22:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "10043386",
+    "name": "RMHC Princess Visit #2",
+    "description": "Two sisters of Alpha Delta Pi will appear as Cinderella and Belle, accompanied by at least one other sister or character attendant. The goal of this visit is to sit with the families, color, sing, dance, and bring some brightness to their day. RMHCC is so excited about this idea. All dresses used are provided and donated by Evie Crumrine.",
+    "location": "Ronald McDonald House",
+    "starts_on": "2024-03-25T20:30:00+00:00",
+    "ends_on": "2024-03-25T21:30:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "10021362",
+    "name": "Chapter Meeting",
+    "description": "Weekly chapter meeting",
+    "location": "Furman Hall 214",
+    "starts_on": "2024-03-24T20:30:00+00:00",
+    "ends_on": "2024-03-24T23:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "9928035",
+    "name": "Galentines",
+    "description": "Making Flower Bouquets for Friends!",
+    "location": "Thomas Room",
+    "starts_on": "2024-02-14T01:00:00+00:00",
+    "ends_on": "2024-02-14T03:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9603244",
+    "name": "Semi Formal",
+    "description": "Alpha Delta Pi will host a semiformal in November for the chapter and their dates.",
+    "location": "Zen",
+    "starts_on": "2023-11-18T00:30:00+00:00",
+    "ends_on": "2023-11-18T03:30:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "7574243",
+    "name": "Dress Fly with ADPi and Sigma Chi",
+    "description": "Alpha Delta Pi and Sigma Chi are hosting a charity fashion show. Come watch members from each chapter models clothes from local Greenville stores. After the show, students have exclusive access to clothes from the stores. All proceeds from tickets and clothing sales will benefit RMHC of the Carolinas and Huntsman Cancer Foundation.",
+    "location": "McAlister Auditorium",
+    "starts_on": "2021-11-10T00:00:00+00:00",
+    "ends_on": "2021-11-10T02:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "7404120",
+    "name": "Stop the Hazing Campaign",
+    "description": "Members of Alpha Delta Pi will be tabling in honor of the Max Gruver Foundation in a pledge against hazing. Furman students will be encouraged to sign a paper hand as a pledge against hazing and will have the opportunity to learn about hazing myths.",
+    "location": "Joseph Vaughn Plaza",
+    "starts_on": "2021-09-24T16:00:00+00:00",
+    "ends_on": "2021-09-24T18:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  },
+  {
+    "id": "7404119",
+    "name": "Stop the Hazing Campaign",
+    "description": "Members of Alpha Delta Pi will be tabling in honor of the Max Gruver Foundation in a pledge against hazing. Furman students will be encouraged to sign a paper hand as a pledge against hazing and will have the opportunity to learn about hazing myths.",
+    "location": "Joseph Vaughn Plaza",
+    "starts_on": "2021-09-22T16:00:00+00:00",
+    "ends_on": "2021-09-22T18:00:00+00:00",
+    "org_name": "Alpha Delta Pi",
+    "org_id": 183311,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  }
+]

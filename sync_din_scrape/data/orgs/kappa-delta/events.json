@@ -1,0 +1,30 @@
+[
+  {
+    "id": "6896020",
+    "name": "Conversation Hearts with KD",
+    "description": "Come swing by the dining hall from 1:00 - 2:30 pm to share what makes you feel confident as a member of the Furman campus! Our mission as members of Kappa Delta is to instill confidence in those around us through the confidence coalition! The confidence coalition is an alliance committed to promoting self- confidence in girls and women so that they may feel empowered to overcome social barriers and be inspired to reach their greatest potential. We will be giving out valentines treats to all of those who participate!",
+    "location": "Dining Hall (Closest to the Lake)",
+    "starts_on": "2021-02-11T18:00:00+00:00",
+    "ends_on": "2021-02-11T19:30:00+00:00",
+    "org_name": "Kappa Delta",
+    "org_id": 183321,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "6476008",
+    "name": "Kappa Delta Quesadillas",
+    "description": "The Hill Courtyard is reserved, and the event is now being repurposed as a to-go/pick up orders option only. Attendees will not eat on site or hang around, and no more than 30 people (KD members + attendees) will be on site at one time. Will be setting up a tent under which to distribute the food, and 1-2 KDs will distribute orders to customers while wearing gloves. This option will serve as the light rain option, and you\u00a0plan to reserve the Library Porch as a backup for more inclement weather.W Will set up a socially distant line for pick up with Xs marked on the ground every 6ft with either painter's tape or sidewalk chalk (supplies needed: measuring tape, sidewalk chalk/painter's tape). 1-2 KDs will assist with monitoring the line, and should capacity of 30 be reached, these women will ask folks to return in 15-20 minutes when the line subsides 1-2 KDs will assist with ticketing/check-in via a Google doc, and KD will keep a sign in and time stamp of when attendees picked up their order.",
+    "location": "Hill Courtyard",
+    "starts_on": "2020-10-06T22:00:00+00:00",
+    "ends_on": "2020-10-07T00:00:00+00:00",
+    "org_name": "Kappa Delta",
+    "org_id": 183321,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  }
+]

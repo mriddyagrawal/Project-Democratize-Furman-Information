@@ -1,0 +1,114 @@
+[
+  {
+    "id": "9445625",
+    "name": "CCM Weekly Fellowship",
+    "description": "Join us every Wednesday @ 7:00pm for food, scripture, presentations, and discussion!",
+    "location": "Garden Room",
+    "starts_on": "2023-11-23T00:00:00+00:00",
+    "ends_on": "2023-11-23T01:30:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9445618",
+    "name": "CCM Weekly Fellowship",
+    "description": "Join us every Wednesday @ 7:00pm for food, scripture, presentations, and discussion!",
+    "location": "Garden Room",
+    "starts_on": "2023-09-27T23:00:00+00:00",
+    "ends_on": "2023-09-28T00:30:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9427226",
+    "name": "CLP Catholic Mass",
+    "description": "The Roman Catholic Mass Celebration is a religious liturgy whose origins date back to the first century. The mass is celebrated in each country of the world every day amongst people of various cultures, backgrounds, languages, and traditions. Given this ancient liturgy\u2019s ties to culture and history, it is a great learning opportunity for students to witness as it has been a pivotal ceremony for the world as a whole. The mass is divided into two sections: Liturgy of the Word and Liturgy of the Eucharist. Students attending the mass will hear various pieces of literature from the BC Jewish Era, writings from the Gospels detailing Jesus\u2019s life, and readings from the early church fathers. After the conclusion of the mass, students will have the opportunity to ask questions.",
+    "location": "Daniel Chapel Furman University",
+    "starts_on": "2023-09-25T01:00:00+00:00",
+    "ends_on": "2023-09-25T02:00:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "7197646",
+    "name": "CLP Mass",
+    "description": "Join the Catholic Campus Ministries for a CLP mass to learn more about Catholicism and the celebration of the mass.",
+    "location": "Daniel Chapel",
+    "starts_on": "2021-11-15T02:00:00+00:00",
+    "ends_on": "2021-11-15T03:00:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "7197645",
+    "name": "Catholic Mass",
+    "description": "Catholic Mass at 9PM Sunday evenings.",
+    "location": "Daniel Chapel",
+    "starts_on": "2021-11-08T02:00:00+00:00",
+    "ends_on": "2021-11-08T03:00:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "1695973",
+    "name": "CCM Gathering \"Religion vs. Science\"",
+    "description": "This Wednesday night we will be discussing the relationship between religion and science. Is this relationship a battle or a friendship? Come out at 7:30pm for dinner. Our discussion will begin at 8pm. This is our last Wednesday night for discussion before our Advent party next week. Join CCM for a meaningful talk one last time this year!",
+    "location": "Daniel Chapel Garden Room",
+    "starts_on": "2012-11-29T00:30:00+00:00",
+    "ends_on": "2012-11-29T02:00:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1701961",
+    "name": "Mass",
+    "description": "",
+    "location": "Chapel",
+    "starts_on": "2012-04-15T22:30:00+00:00",
+    "ends_on": "2012-04-15T23:30:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1695247",
+    "name": "CCM Meeting",
+    "description": "This week we will be discussing \"The Way, the Truth, and the Life\", the topic from our retreat this past weekend. The discussion will be an opportunity for those who did not attend the retreat to get a sense of what we talked about while those who did attend can reflect more on the topic. Join us for dinner at 7:30 followed by discussion at 8:00.",
+    "location": "Chapel Garden Room",
+    "starts_on": "2012-03-21T23:30:00+00:00",
+    "ends_on": "2012-03-22T01:00:00+00:00",
+    "org_name": "Catholic Campus Ministry",
+    "org_id": 183350,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

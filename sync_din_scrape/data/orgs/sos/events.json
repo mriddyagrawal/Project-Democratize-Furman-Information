@@ -1,0 +1,17 @@
+[
+  {
+    "id": "10370653",
+    "name": "Sink or Swim 2v2 Tournament",
+    "description": "On September 21st, Furman University's Sink or Swim is hosting a tournament at 6pm. Pizza will be included for competitors. Anyone signed up has the chance to win an amazing prize!",
+    "location": "Trone Student Center Pool Table",
+    "starts_on": "2024-09-21T22:00:00+00:00",
+    "ends_on": "2024-09-22T01:00:00+00:00",
+    "org_name": "Sink or Swim",
+    "org_id": 370588,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  }
+]

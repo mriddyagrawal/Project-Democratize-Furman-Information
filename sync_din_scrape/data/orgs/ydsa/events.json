@@ -1,0 +1,43 @@
+[
+  {
+    "id": "11232332",
+    "name": "General Body Meeting",
+    "description": "We will be voting on new Central Committee members as well as discussing our Wage Justice campaign.",
+    "location": "Furman Hall 214",
+    "starts_on": "2025-04-14T23:30:00+00:00",
+    "ends_on": "2025-04-15T01:00:00+00:00",
+    "org_name": "Furman Young Democratic Socialists of America",
+    "org_id": 370745,
+    "category_names": [],
+    "theme": "Cultural",
+    "visibility": "Public"
+  },
+  {
+    "id": "11180757",
+    "name": "Wage Justice Canvassing",
+    "description": "We will be canvassing for a living wage on Furman's campus!",
+    "location": "Joseph Vaughn Plaza",
+    "starts_on": "2025-03-21T16:00:00+00:00",
+    "ends_on": "2025-03-21T17:30:00+00:00",
+    "org_name": "Furman Young Democratic Socialists of America",
+    "org_id": 370745,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "9418739",
+    "name": "\"What is Socialism?\" Political Education Event",
+    "description": "Join the Furman Young Democratic Socialists of America for a discussion about socialism, what it is, why it matters, and how Furman YDSA incorporates its principles into our work. This meeting is for everyone, regardless of your level of familiarity with the ideas being discussed. Come as you are!",
+    "location": "Johns Hall 101",
+    "starts_on": "2023-09-27T22:00:00+00:00",
+    "ends_on": "2023-09-27T23:00:00+00:00",
+    "org_name": "Furman Young Democratic Socialists of America",
+    "org_id": 370745,
+    "category_names": [
+      "Political"
+    ],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  }
+]

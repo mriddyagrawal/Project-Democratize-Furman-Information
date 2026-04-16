@@ -1,0 +1,67 @@
+[
+  {
+    "id": "8307047",
+    "name": "FCA Dodgeball Tournament",
+    "description": "FCA is hosting a dodgeball tournament in the PAC. Grab a team and cannot wait to see you there!",
+    "location": "PAC",
+    "starts_on": "2022-10-21T20:30:00+00:00",
+    "ends_on": "2022-10-21T22:30:00+00:00",
+    "org_name": "Fellowship of Christian Athletes",
+    "org_id": 183498,
+    "category_names": [],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699843",
+    "name": "Tuesday Night Meeting",
+    "description": "Come hear the Word, Worship, and Fellowship!!",
+    "location": "Burgiss Theater, Upstairs in Trone University Center",
+    "starts_on": "2012-11-14T01:30:00+00:00",
+    "ends_on": "2012-11-14T04:30:00+00:00",
+    "org_name": "Fellowship of Christian Athletes",
+    "org_id": 183498,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1700574",
+    "name": "Tuesday Night Meeting",
+    "description": "Come hear the Word, Worship, and Fellowship!!",
+    "location": "Burgiss Theater, Upstairs in Trone University Center",
+    "starts_on": "2012-10-31T00:30:00+00:00",
+    "ends_on": "2012-10-31T03:30:00+00:00",
+    "org_name": "Fellowship of Christian Athletes",
+    "org_id": 183498,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698572",
+    "name": "Tuesday Night Meeting",
+    "description": "Come hear the Word, Worship, and Fellowship!!",
+    "location": "Burgiss Theater, Upstairs in Trone University Center",
+    "starts_on": "2012-09-26T00:30:00+00:00",
+    "ends_on": "2012-09-26T03:30:00+00:00",
+    "org_name": "Fellowship of Christian Athletes",
+    "org_id": 183498,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1695321",
+    "name": "Beach Weekend",
+    "description": "FCA Beach Weekend!",
+    "location": "Myrtle Beach",
+    "starts_on": "2012-04-13T17:00:00+00:00",
+    "ends_on": "2012-04-15T14:00:00+00:00",
+    "org_name": "Fellowship of Christian Athletes",
+    "org_id": 183498,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "11731434",
+    "name": "FCS Meeting",
+    "description": "General meeting of FCS. We will have discussion on current events.",
+    "location": "Riley 107",
+    "starts_on": "2025-10-09T23:00:00+00:00",
+    "ends_on": "2025-10-10T00:00:00+00:00",
+    "org_name": "Furman Conservative Society",
+    "org_id": 183363,
+    "category_names": [
+      "Political"
+    ],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "6812110",
+    "name": "Pizza and Game Night 2.0 (Super Socially Distanced)",
+    "description": "Original plan: the people who signed up would gather in Trone for in person games and pizza catered by Bon Appetit. Problem: Furman said we can only gather for student organizations in groups of 10 or less. New (and never-before-tried and possibly-more-exciting) idea: We split the individuals signed up into 7 groups (one for each FCS officer). Each group will receive a text from their team captain about where to meet and any other details. Officers will host groups all over campus in their dorm (no more than 3 guests per officer) For the pizza, we will not cancel the order. Instead, we will do pizza delivery! An FCS officer will deliver the pizza to your group location. For the games, the groups that are formed will be teams which just ups the competition. Points awarded for best team name and even if the team can coordinate (all wear red or something). We even have a prize for the team that wins the most games (like a giant tournament). Benefits of the new idea: It\u2019s new and special! We can still have the event. Having the small groups fosters new and deeper friendships that may not have formed otherwise! Who does not just love some good team competition?!",
+    "location": "Online",
+    "starts_on": "2021-02-03T00:00:00+00:00",
+    "ends_on": "2021-02-03T02:00:00+00:00",
+    "org_name": "Furman Conservative Society",
+    "org_id": 183363,
+    "category_names": [
+      "Political",
+      "Social Programmatic"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698674",
+    "name": "CSBT Meeting",
+    "description": "",
+    "location": "Johns Hall 107",
+    "starts_on": "2012-03-21T23:00:00+00:00",
+    "ends_on": "2012-03-22T00:00:00+00:00",
+    "org_name": "Furman Conservative Society",
+    "org_id": 183363,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

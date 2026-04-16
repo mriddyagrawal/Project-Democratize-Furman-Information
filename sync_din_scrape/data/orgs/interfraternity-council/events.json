@@ -1,0 +1,32 @@
+[
+  {
+    "id": "11878111",
+    "name": "Conversations on the Steps",
+    "description": "Come talk to the brothers on the library steps from 11:30 to 1:00! Drinks and pastries available.",
+    "location": "Library Steps",
+    "starts_on": "2025-11-20T16:30:00+00:00",
+    "ends_on": "2025-11-20T18:00:00+00:00",
+    "org_name": "Interfraternity Council",
+    "org_id": 183411,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9545836",
+    "name": "Football with the Brothers",
+    "description": "Come hang out in the trone atrium, eat some pizza and watch football while getting to know the men of our fraternities.",
+    "location": "Trone Student Center",
+    "starts_on": "2023-11-17T01:00:00+00:00",
+    "ends_on": "2023-11-17T03:00:00+00:00",
+    "org_name": "Interfraternity Council",
+    "org_id": 183411,
+    "category_names": [
+      "Greek Life Event"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  }
+]

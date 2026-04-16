@@ -1,0 +1,48 @@
+[
+  {
+    "id": "12240698",
+    "name": "Anthropology Club Smore's",
+    "description": "Come join us to hang out around the fire like humans have for thousands of years! While early humans may not have had smore's, we sure do (while supplies last).",
+    "location": "Trone Point of View Fire Pit",
+    "starts_on": "2026-03-20T21:00:00+00:00",
+    "ends_on": "2026-03-20T22:30:00+00:00",
+    "org_name": "Furman University Anthropology Club",
+    "org_id": 370742,
+    "category_names": [
+      "Meeting",
+      "Special Interest"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "11681275",
+    "name": "Pottery Night",
+    "description": "Come learn about the invention of pottery and try some hand-built pottery techniques with air dry clay.",
+    "location": "Furman Hall 107",
+    "starts_on": "2025-09-25T21:30:00+00:00",
+    "ends_on": "2025-09-25T22:30:00+00:00",
+    "org_name": "Furman University Anthropology Club",
+    "org_id": 370742,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "9921825",
+    "name": "Mini-Talk by Dr. Scott Legge: What Happens When a Monkey Falls Out of a Tree?",
+    "description": "Dr. Scott Legge will give a talk following the events of Anthropology Day concerning the effect of gravity upon large and medium-bodied African Primates. This talk will be held in Furman Hall 229.",
+    "location": "Furman Hall 229",
+    "starts_on": "2024-02-15T22:30:00+00:00",
+    "ends_on": "2024-02-15T23:00:00+00:00",
+    "org_name": "Furman University Anthropology Club",
+    "org_id": 370742,
+    "category_names": [
+      "Academic"
+    ],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  }
+]

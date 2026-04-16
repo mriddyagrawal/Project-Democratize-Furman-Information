@@ -1,0 +1,108 @@
+[
+  {
+    "id": "12312965",
+    "name": "SGA Weekly Council Meeting",
+    "description": "New Business Meeting. Meetings are open to all members of the student body.",
+    "location": "Watkin's Room",
+    "starts_on": "2026-04-27T22:00:00+00:00",
+    "ends_on": "2026-04-27T23:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "12312968",
+    "name": "SGA Weekly Council Meeting",
+    "description": "Guest Speaker: Madgelyn Helwig & Jean Schwab (AI Task Force) New Business Meeting. Meetings are open to all members of the student body.",
+    "location": "Watkin's Room",
+    "starts_on": "2026-04-06T22:00:00+00:00",
+    "ends_on": "2026-04-06T23:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "12188364",
+    "name": "SGA Weekly Council Meeting",
+    "description": "Guest Speaker: Ron Thompson & Curtis Nash (Housing Lottery) Discussion Based Meeting. Meetings are open to all members of the student body",
+    "location": "Watkin's Room",
+    "starts_on": "2026-02-02T23:00:00+00:00",
+    "ends_on": "2026-02-03T00:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "GroupBusiness",
+    "visibility": "Public"
+  },
+  {
+    "id": "11863234",
+    "name": "SGA Food for Fines",
+    "description": "Furman Food for Fines is a collaborative initiative between SGA and FUPO designed to support local food security while providing students with an alternative way to resolve minor parking violations. Through this program, students can donate nonperishable food items in exchange for having an eligible parking citation waived. All collected items will be donated to Miracle Hill Food Warehouse in Greenville.",
+    "location": "Library Steps",
+    "starts_on": "2025-11-21T17:30:00+00:00",
+    "ends_on": "2025-11-21T18:30:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  },
+  {
+    "id": "11244921",
+    "name": "Senior Gift Donor Cord Pick-Up",
+    "description": "A chance for seniors who have or would like to contribute to the senior gift to pick up their cords. Donations can be made at furman.edu/seniorclassgift",
+    "location": "Trone Front Patio",
+    "starts_on": "2025-04-15T15:30:00+00:00",
+    "ends_on": "2025-04-15T18:30:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "Fundraising",
+    "visibility": "Public"
+  },
+  {
+    "id": "11179900",
+    "name": "Freshmen vs. Juniors Pickleball Tournament",
+    "description": "This tournament will take place on\u00a0Saturday, March 22nd, from 2:00 - 6:00 pm\u00a0on the North Village courts.\u00a0Grill food and snacks will be provided!\u00a0Participants need to bring their own paddles and extra balls. Paddles will not be provided. Teams of two (both in the same grade) will compete in either a Beginner or Intermediate league for a prize! Message Grace Finkel (finkgr7@furman.edu) or Hannah McCoy (mccoha7@furman.edu) with any questions!",
+    "location": "North Village G pavilion courts",
+    "starts_on": "2025-03-22T18:00:00+00:00",
+    "ends_on": "2025-03-22T22:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [
+      "Student Organization Athletic Event"
+    ],
+    "theme": "Athletics",
+    "visibility": "Public"
+  },
+  {
+    "id": "9627502",
+    "name": "Burnout Music Festival",
+    "description": "The first annual Burnout Music Festival is a glorious cumulation of three rock bands on campus. Complete with the Daily Havoc, the Balconies, the Lucky Sevens, and food trucks, how can you miss out?? ~~~ Lineup: The Lucky Sevens: 4:00-4:30pm The Balconies: 4:45-5:45pm The Daily Havoc: 6:00-7:00pm ~~~ This event, including the food, is open and free to the public. Join us and enjoy the some of the best rock music that Furman University has to offer!",
+    "location": "Lakeside Amphitheater",
+    "starts_on": "2023-11-18T21:00:00+00:00",
+    "ends_on": "2023-11-19T00:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "Arts",
+    "visibility": "Public"
+  },
+  {
+    "id": "2720335",
+    "name": "Council Meeting",
+    "description": "Weekly SGA Council meeting- anyone is welcome to attend!",
+    "location": "Thomas Room",
+    "starts_on": "2018-10-29T22:00:00+00:00",
+    "ends_on": "2018-10-29T23:00:00+00:00",
+    "org_name": "Student Government Association",
+    "org_id": 183319,
+    "category_names": [],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  }
+]

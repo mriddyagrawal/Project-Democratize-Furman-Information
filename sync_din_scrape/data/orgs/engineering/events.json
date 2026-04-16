@@ -1,0 +1,17 @@
+[
+  {
+    "id": "9628947",
+    "name": "Soldering Workshop",
+    "description": "Join Furman's Engineering Club on the 29th to learn how to solder together circuits and make a little light up bug!",
+    "location": "Plyler 208/210",
+    "starts_on": "2023-11-30T00:00:00+00:00",
+    "ends_on": "2023-11-30T01:00:00+00:00",
+    "org_name": "Furman University Engineering Club",
+    "org_id": 382592,
+    "category_names": [
+      "Academic"
+    ],
+    "theme": "ThoughtfulLearning",
+    "visibility": "Public"
+  }
+]

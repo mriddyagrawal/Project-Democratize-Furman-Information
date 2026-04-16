@@ -1,0 +1,30 @@
+[
+  {
+    "id": "10402549",
+    "name": "Fall 2024 Club Soccer Tryouts!",
+    "description": "Tuesday September 3 and Thursday September 5 the Men's Club soccer team will be hosting tryouts for the upcoming academic year! Tryouts will be from 6:30-8PM on the upper NV field. Please arrive at 6pm on Tuesday in order to register for tryouts!",
+    "location": "Upper NV Field",
+    "starts_on": "2024-09-05T22:00:00+00:00",
+    "ends_on": "2024-09-06T00:00:00+00:00",
+    "org_name": "Furman Men's Club Soccer",
+    "org_id": 183399,
+    "category_names": [],
+    "theme": "Athletics",
+    "visibility": "Public"
+  },
+  {
+    "id": "9361950",
+    "name": "League Game Against Georgia Tech",
+    "description": "The Furman University Men's Club Soccer team will play Georgia Tech for their second home league game.",
+    "location": "North Village Upper Field",
+    "starts_on": "2023-09-24T17:00:00+00:00",
+    "ends_on": "2023-09-24T19:00:00+00:00",
+    "org_name": "Furman Men's Club Soccer",
+    "org_id": 183399,
+    "category_names": [
+      "Student Organization Athletic Event"
+    ],
+    "theme": "Athletics",
+    "visibility": "Public"
+  }
+]

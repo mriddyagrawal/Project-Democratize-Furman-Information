@@ -1,0 +1,32 @@
+[
+  {
+    "id": "9369161",
+    "name": "Game: Furman Vs. Coastal",
+    "description": "Saturday Sept. 23rd Furman vs. Coastal @1:00 pm home",
+    "location": "Furman University",
+    "starts_on": "2023-09-23T17:00:00+00:00",
+    "ends_on": "2023-09-23T18:30:00+00:00",
+    "org_name": "Furman Women's Club Soccer",
+    "org_id": 183433,
+    "category_names": [
+      "Varsity Athletic Event"
+    ],
+    "theme": "Athletics",
+    "visibility": "Public"
+  },
+  {
+    "id": "9369176",
+    "name": "Game: USC Vs. Furman",
+    "description": "Friday Sept. 22nd USC vs. Furman @ 6:00 pm away",
+    "location": "University of South Carolina",
+    "starts_on": "2023-09-22T22:00:00+00:00",
+    "ends_on": "2023-09-22T23:30:00+00:00",
+    "org_name": "Furman Women's Club Soccer",
+    "org_id": 183433,
+    "category_names": [
+      "Varsity Athletic Event"
+    ],
+    "theme": "Athletics",
+    "visibility": "Public"
+  }
+]

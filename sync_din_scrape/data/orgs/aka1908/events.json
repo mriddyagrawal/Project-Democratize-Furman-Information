@@ -1,0 +1,17 @@
+[
+  {
+    "id": "11669453",
+    "name": "Adopt a Grandfriend",
+    "description": "The ladies of Alpha Kappa Alpha Sorority Incorporated will be hosting an event where the Furman community can join us in writing letters to the elderly at the Woodlands. This will be a wonderful opportunity to spread kindness and connect with the student body.",
+    "location": "Riley 105",
+    "starts_on": "2025-09-24T22:00:00+00:00",
+    "ends_on": "2025-09-24T23:00:00+00:00",
+    "org_name": "Alpha Kappa Alpha Sorority, Incorporated (Rho Zeta Chapter)",
+    "org_id": 183346,
+    "category_names": [
+      "Social Programmatic"
+    ],
+    "theme": "CommunityService",
+    "visibility": "Public"
+  }
+]

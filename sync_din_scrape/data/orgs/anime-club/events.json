@@ -1,0 +1,30 @@
+[
+  {
+    "id": "7348518",
+    "name": "Anime Club Weekly Meeting",
+    "description": "Join Anime Club as we have our weekly meetings to discuss and watch anime from different genres! Every week there will be a different theme posted in our GroupMe\u00a0and then we watch anime related to that theme during our meeting! There will also be a chance for you to receive a plush and comfortable hoodie or a snazzy t-shirt. Please contact Dominique (Domo) Martin [dominique.martin@furman.edu] or Kevin Sanders [kevin.sanders@furman.edu] if you have any questions or concerns. If you are unable to come to in person meetings, have no fear! We are a hybrid organization that has members that are on and off campus! Once you have signed into\u00a0GroupMe\u00a0a Zoom link will be provided.",
+    "location": "Johns Hall 101",
+    "starts_on": "2021-09-24T23:00:00+00:00",
+    "ends_on": "2021-09-25T02:00:00+00:00",
+    "org_name": "Furman University Anime Club",
+    "org_id": 183336,
+    "category_names": [],
+    "theme": "Cultural",
+    "visibility": "Public"
+  },
+  {
+    "id": "4854915",
+    "name": "September Library Anime Movie showing",
+    "description": "A Showing of the animated movie: Penguin Highway",
+    "location": "LIbrary Room 043",
+    "starts_on": "2019-09-20T18:30:00+00:00",
+    "ends_on": "2019-09-20T21:00:00+00:00",
+    "org_name": "Furman University Anime Club",
+    "org_id": 183336,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Cultural",
+    "visibility": "Public"
+  }
+]

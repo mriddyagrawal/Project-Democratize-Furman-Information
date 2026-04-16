@@ -1,0 +1,32 @@
+[
+  {
+    "id": "12046966",
+    "name": "Chess Club Meeting",
+    "description": "Weekly meetings for casual chess on Fridays at 5 PM in Riley 105. All skill levels welcome!",
+    "location": "Riley 105",
+    "starts_on": "2026-03-20T21:00:00+00:00",
+    "ends_on": "2026-03-20T23:00:00+00:00",
+    "org_name": "Furman Chess Club",
+    "org_id": 344889,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "11604711",
+    "name": "Chess Club Meeting",
+    "description": "Weekly meetings for casual chess on Fridays at 5 PM in Riley 105. All skill levels welcome!",
+    "location": "Riley 105",
+    "starts_on": "2025-10-31T21:00:00+00:00",
+    "ends_on": "2025-10-31T23:00:00+00:00",
+    "org_name": "Furman Chess Club",
+    "org_id": 344889,
+    "category_names": [
+      "Special Interest"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  }
+]

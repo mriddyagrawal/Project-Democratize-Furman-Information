@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1711278",
+    "name": "National Philanthropy Concert",
+    "description": "",
+    "location": "Daniel Recital Hall",
+    "starts_on": "2014-04-07T23:00:00+00:00",
+    "ends_on": "2014-04-08T00:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1696874",
+    "name": "Furman Bands Concert",
+    "description": "Come support the many SAI Sisters in the Symphonic Band and Wind Ensemble, under the direction of Dr. Les Hicken (Friend of the Arts).",
+    "location": "McAlister Auditorium",
+    "starts_on": "2014-04-05T00:00:00+00:00",
+    "ends_on": "2014-04-05T01:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1696367",
+    "name": "Spring Honors Recital",
+    "description": "",
+    "location": "Daniel Recital Hall",
+    "starts_on": "2014-04-02T00:00:00+00:00",
+    "ends_on": "2014-04-02T01:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1711797",
+    "name": "Formal!",
+    "description": "",
+    "location": "Westin, Downtown Greenville",
+    "starts_on": "2014-03-29T23:00:00+00:00",
+    "ends_on": "2014-03-30T03:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1697654",
+    "name": "Home Football Game, Family Weekend! (Elon)",
+    "description": "It's Family Weekend!! Come support the many SAIs in the Paladin Regiment Marching Band under the direction of fellow SAIs Mr. Jay Bocook (National Arts Associate) and Dr. Les Hicken (Friend of the Arts)!",
+    "location": "Furman University",
+    "starts_on": "2013-10-05T04:00:00+00:00",
+    "ends_on": "2013-10-05T04:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1700608",
+    "name": "Marching Band Extravaganza",
+    "description": "Come support the many SAIs in the Paladin Regiment Marching Band under the direction of fellow SAIs Mr. Jay Bocook (National Arts Associate) and Dr. Les Hicken (Friend of the Arts)!",
+    "location": "McAlister Auditoroium",
+    "starts_on": "2013-10-05T00:00:00+00:00",
+    "ends_on": "2013-10-05T01:00:00+00:00",
+    "org_name": "Sigma Alpha Iota",
+    "org_id": 183402,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

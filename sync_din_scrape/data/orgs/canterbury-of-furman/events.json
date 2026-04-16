@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1698918",
+    "name": "Weekly Meetings",
+    "description": "",
+    "location": "Downstairs Daniel Chapel (unless otherwise specified)",
+    "starts_on": "2012-03-13T22:30:00+00:00",
+    "ends_on": "2012-03-13T23:30:00+00:00",
+    "org_name": "Canterbury of Furman",
+    "org_id": 183313,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699112",
+    "name": "Weekly Meetings",
+    "description": "",
+    "location": "Downstairs Daniel Chapel (unless otherwise specified)",
+    "starts_on": "2012-01-24T23:30:00+00:00",
+    "ends_on": "2012-01-25T00:30:00+00:00",
+    "org_name": "Canterbury of Furman",
+    "org_id": 183313,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699283",
+    "name": "Weekly Meetings",
+    "description": "",
+    "location": "Downstairs Daniel Chapel (unless otherwise specified)",
+    "starts_on": "2011-12-06T23:30:00+00:00",
+    "ends_on": "2011-12-07T00:30:00+00:00",
+    "org_name": "Canterbury of Furman",
+    "org_id": 183313,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698425",
+    "name": "Weekly Meetings",
+    "description": "",
+    "location": "Downstairs Daniel Chapel (unless otherwise specified)",
+    "starts_on": "2011-10-25T22:30:00+00:00",
+    "ends_on": "2011-10-25T23:30:00+00:00",
+    "org_name": "Canterbury of Furman",
+    "org_id": 183313,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "12328648",
+    "name": "FUNC Radio Tabling",
+    "description": "Tabling in front of the library for the FUNC Radio Big Bug Bash- our yearly Furman community music festival!",
+    "location": "Joseph Vaughn Plaza",
+    "starts_on": "2026-03-20T15:30:00+00:00",
+    "ends_on": "2026-03-20T17:30:00+00:00",
+    "org_name": "Furman University News Channel Radio",
+    "org_id": 183324,
+    "category_names": [
+      "Meeting"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  }
+]

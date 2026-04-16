@@ -1,0 +1,47 @@
+[
+  {
+    "id": "11581237",
+    "name": "Delight Weekly Meeting",
+    "description": "Weekly meeting of Delight women discussing the most recent chapter in the study.",
+    "location": "Furman Hall 117",
+    "starts_on": "2025-11-20T01:00:00+00:00",
+    "ends_on": "2025-11-20T02:00:00+00:00",
+    "org_name": "Delight Ministries",
+    "org_id": 183477,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "11581236",
+    "name": "Delight Weekly Meeting",
+    "description": "Weekly meeting of Delight women discussing the most recent chapter in the study.",
+    "location": "Furman Hall 117",
+    "starts_on": "2025-11-20T01:00:00+00:00",
+    "ends_on": "2025-11-20T02:00:00+00:00",
+    "org_name": "Delight Ministries",
+    "org_id": 183477,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "11581229",
+    "name": "Delight Weekly Meeting",
+    "description": "Weekly meeting of Delight women discussing the most recent chapter in the study.",
+    "location": "Furman Hall 117",
+    "starts_on": "2025-09-25T00:00:00+00:00",
+    "ends_on": "2025-09-25T01:00:00+00:00",
+    "org_name": "Delight Ministries",
+    "org_id": 183477,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  }
+]

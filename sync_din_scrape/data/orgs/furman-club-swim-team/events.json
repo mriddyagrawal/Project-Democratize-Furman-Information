@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1700041",
+    "name": "Swim practice",
+    "description": "",
+    "location": "PAC pool",
+    "starts_on": "2011-10-25T21:00:00+00:00",
+    "ends_on": "2011-10-25T22:00:00+00:00",
+    "org_name": "Furman Club Swim Team",
+    "org_id": 183534,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

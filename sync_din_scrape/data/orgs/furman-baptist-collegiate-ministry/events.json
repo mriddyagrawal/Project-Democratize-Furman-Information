@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1696154",
+    "name": "BCM Christmas Party!",
+    "description": "BCM Christmas Party! Details/Accurate Time to come soon!",
+    "location": "TBD",
+    "starts_on": "2012-11-29T23:30:00+00:00",
+    "ends_on": "2012-11-30T00:30:00+00:00",
+    "org_name": "Furman Baptist Collegiate Ministry",
+    "org_id": 183503,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699431",
+    "name": "Homecoming Float Building!",
+    "description": "Come and join us on the Furman Mall as we participate in the longtime Furman tradition of float-building! We will cookout (Thursday) and have pizza (Friday) on the mall, so don't worry about dinner. Come and share your construction and decoration skillz as we build a homecoming float!",
+    "location": "Furman Mall",
+    "starts_on": "2012-10-18T21:00:00+00:00",
+    "ends_on": "2012-10-18T22:00:00+00:00",
+    "org_name": "Furman Baptist Collegiate Ministry",
+    "org_id": 183503,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699292",
+    "name": "BCM Thursday Nights!",
+    "description": "Come and join for a time of fellowship around the table, worship, and study of God's Word! It would be our deep joy to worship with you at Furman BCM!",
+    "location": "Burgiss Theater",
+    "starts_on": "2012-10-04T23:30:00+00:00",
+    "ends_on": "2012-10-05T01:15:00+00:00",
+    "org_name": "Furman Baptist Collegiate Ministry",
+    "org_id": 183503,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699214",
+    "name": "BCM Thursday Nights!",
+    "description": "Come and join for a time of fellowship around the table, worship, and study of God's Word! It would be our deep joy to worship with you at Furman BCM!",
+    "location": "Burgiss Theater",
+    "starts_on": "2012-09-13T23:30:00+00:00",
+    "ends_on": "2012-09-14T01:15:00+00:00",
+    "org_name": "Furman Baptist Collegiate Ministry",
+    "org_id": 183503,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698723",
+    "name": "BCM Thursday Nights!",
+    "description": "Come and join for a time of fellowship around the table, worship, and study of God's Word! It would be our deep joy to worship with you at Furman BCM!",
+    "location": "Burgiss Theater",
+    "starts_on": "2012-08-30T23:30:00+00:00",
+    "ends_on": "2012-08-31T01:15:00+00:00",
+    "org_name": "Furman Baptist Collegiate Ministry",
+    "org_id": 183503,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

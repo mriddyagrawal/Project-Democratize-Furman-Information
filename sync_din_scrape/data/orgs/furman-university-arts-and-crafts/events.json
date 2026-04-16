@@ -1,0 +1,32 @@
+[
+  {
+    "id": "11737625",
+    "name": "Furman Arts & Crafts Meeting",
+    "description": "Are you prepared for something exciting??? Themes of third meeting: shrinked plastic accessory \ud83c\udf3a\ud83d\udca8",
+    "location": "FUR-110",
+    "starts_on": "2025-10-09T22:00:00+00:00",
+    "ends_on": "2025-10-09T23:00:00+00:00",
+    "org_name": "Furman University Arts and Crafts",
+    "org_id": 410401,
+    "category_names": [
+      "Meeting"
+    ],
+    "theme": "Arts",
+    "visibility": "Public"
+  },
+  {
+    "id": "11675671",
+    "name": "Furman Arts & Crafts Meeting",
+    "description": "Come, make, and paint arts and crafts with us. Themes of the week: clay miniatures\u00a0\u26b1\ufe0f",
+    "location": "FUR-110",
+    "starts_on": "2025-09-25T22:00:00+00:00",
+    "ends_on": "2025-09-25T23:00:00+00:00",
+    "org_name": "Furman University Arts and Crafts",
+    "org_id": 410401,
+    "category_names": [
+      "Meeting"
+    ],
+    "theme": "Arts",
+    "visibility": "Public"
+  }
+]

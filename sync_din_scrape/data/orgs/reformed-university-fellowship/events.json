@@ -1,0 +1,217 @@
+[
+  {
+    "id": "12313036",
+    "name": "RUF Large Group",
+    "description": "Worship, fellowship, and Scripture in community!",
+    "location": "Hartness Pavillion",
+    "starts_on": "2026-03-20T00:00:00+00:00",
+    "ends_on": "2026-03-20T01:30:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "11694573",
+    "name": "RUF Large Group",
+    "description": "Weekly worship service with music, teaching, and fellowship! People from all religious backgrounds are welcome!",
+    "location": "Hartness Pavillion",
+    "starts_on": "2025-10-31T00:00:00+00:00",
+    "ends_on": "2025-10-31T01:15:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "11694595",
+    "name": "RUF Large Group",
+    "description": "Weekly worship service with music, teaching, and fellowship! People from all religious backgrounds are welcome!",
+    "location": "Hartness Pavillion",
+    "starts_on": "2025-10-10T00:00:00+00:00",
+    "ends_on": "2025-10-10T01:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "11694671",
+    "name": "S'mores with RUF",
+    "description": "Fall vibes, friends, and s'mores! Stop by or stay a while!",
+    "location": "Trone Fire Pit",
+    "starts_on": "2025-09-24T22:30:00+00:00",
+    "ends_on": "2025-09-25T01:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  },
+  {
+    "id": "11009591",
+    "name": "RUF Large Group",
+    "description": "Our weekly worship meeting to sing and hear preaching from the Bible.",
+    "location": "Garden Room",
+    "starts_on": "2025-03-21T00:00:00+00:00",
+    "ends_on": "2025-03-21T01:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "9866934",
+    "name": "RUF Community Groups",
+    "description": "This semester, we will have two community groups (one on Tuesday nights at 7, and one on Wednesday nights at 7). Community groups are smaller groups that eat dinner together and talk about aspects of Christianity while encouraging fellowship between one another. Attendees will bring their own dinner to the event.",
+    "location": "North Village",
+    "starts_on": "2024-03-27T23:00:00+00:00",
+    "ends_on": "2024-03-28T00:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "9866933",
+    "name": "RUF Community Groups",
+    "description": "This semester, we will have two community groups (one on Tuesday nights at 7, and one on Wednesday nights at 7). Community groups are smaller groups that eat dinner together and talk about aspects of Christianity while encouraging fellowship between one another. Attendees will bring their own dinner to the event.",
+    "location": "North Village",
+    "starts_on": "2024-03-26T23:00:00+00:00",
+    "ends_on": "2024-03-27T00:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "9716336",
+    "name": "RUF Large Group",
+    "description": "We will meet again this week for our weekly worship service. This service will include hymn singing, a message and Bible reading, and fellowship time. Everyone is welcome.",
+    "location": "Garden Room",
+    "starts_on": "2024-02-16T01:00:00+00:00",
+    "ends_on": "2024-02-16T02:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "9866924",
+    "name": "RUF Community Groups",
+    "description": "This semester, we will have two community groups (one on Tuesday nights at 7, and one on Wednesday nights at 7). Community groups are smaller groups that eat dinner together and talk about aspects of Christianity while encouraging fellowship between one another. Attendees will bring their own dinner to the event.",
+    "location": "North Village",
+    "starts_on": "2024-02-15T00:00:00+00:00",
+    "ends_on": "2024-02-15T01:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "9587912",
+    "name": "Hymn Sing and Bonfire",
+    "description": "Join us for a night of singing Psalm hymns and making bonfire snacks. A night of fellowship and praise.",
+    "location": "Vista House",
+    "starts_on": "2023-11-18T00:00:00+00:00",
+    "ends_on": "2023-11-18T02:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [
+      "Religious"
+    ],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "6896227",
+    "name": "RUF Large Group",
+    "description": "Join us for a time of fellowship, worship, and study in God's Word.",
+    "location": "Daniel Chapel",
+    "starts_on": "2021-02-12T01:00:00+00:00",
+    "ends_on": "2021-02-12T02:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "6485320",
+    "name": "RUF Large Group",
+    "description": "Sign up at the link in our Instagram bio to attend this Large Group with Tom Hart!",
+    "location": "Garden Room - Daniel Chapel",
+    "starts_on": "2020-10-01T23:45:00+00:00",
+    "ends_on": "2020-10-02T01:15:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [],
+    "theme": "Spirituality",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699206",
+    "name": "RUF Large Group",
+    "description": "Great time to come worship and fellowship and hear teaching from the Word.",
+    "location": "Ramsay Parlor",
+    "starts_on": "2012-10-04T23:00:00+00:00",
+    "ends_on": "2012-10-05T00:30:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699446",
+    "name": "RUF Large Group",
+    "description": "Great time to come worship and fellowship and hear teaching from the Word.",
+    "location": "Ramsay Parlor",
+    "starts_on": "2012-09-13T23:00:00+00:00",
+    "ends_on": "2012-09-14T00:30:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698573",
+    "name": "Large Group",
+    "description": "Come to Large Group. Tim is awesome!",
+    "location": "Ramsay Parlor",
+    "starts_on": "2011-12-02T00:00:00+00:00",
+    "ends_on": "2011-12-02T01:00:00+00:00",
+    "org_name": "Reformed University Fellowship",
+    "org_id": 183295,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

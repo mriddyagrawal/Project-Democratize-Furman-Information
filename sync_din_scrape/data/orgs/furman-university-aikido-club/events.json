@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1699508",
+    "name": "First training session",
+    "description": "Aikido training - wear comfortable clothes (sweat pants, tshirt) or dogi if you have one",
+    "location": "Dance studio of PAC",
+    "starts_on": "2012-11-29T23:45:00+00:00",
+    "ends_on": "2012-11-30T01:00:00+00:00",
+    "org_name": "Furman University Aikido Club",
+    "org_id": 183422,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699151",
+    "name": "First training session",
+    "description": "Aikido training - wear comfortable clothes (sweat pants, tshirt) or dogi if you have one",
+    "location": "Dance studio of PAC",
+    "starts_on": "2012-11-12T23:45:00+00:00",
+    "ends_on": "2012-11-13T01:00:00+00:00",
+    "org_name": "Furman University Aikido Club",
+    "org_id": 183422,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1698754",
+    "name": "First training session",
+    "description": "Aikido training - wear comfortable clothes (sweat pants, tshirt) or dogi if you have one",
+    "location": "Dance studio of PAC",
+    "starts_on": "2012-10-18T22:45:00+00:00",
+    "ends_on": "2012-10-19T00:00:00+00:00",
+    "org_name": "Furman University Aikido Club",
+    "org_id": 183422,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  },
+  {
+    "id": "1699932",
+    "name": "First training session",
+    "description": "Aikido training - wear comfortable clothes (sweat pants, tshirt) or dogi if you have one",
+    "location": "Dance studio of PAC",
+    "starts_on": "2012-09-13T22:45:00+00:00",
+    "ends_on": "2012-09-14T00:00:00+00:00",
+    "org_name": "Furman University Aikido Club",
+    "org_id": 183422,
+    "category_names": [],
+    "theme": "Unknown",
+    "visibility": "Public"
+  }
+]

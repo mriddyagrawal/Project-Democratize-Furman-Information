@@ -1,0 +1,17 @@
+[
+  {
+    "id": "7421237",
+    "name": "Homecoming Cornhole Tournament",
+    "description": "All organizations planning on participating in all of the spirit week events are required to attend the annual cornhole game on September 23rd at 6:00pm at the Cherrydale house. While we hope all teams will get their top homecoming themes, in the event that there are overlapping interests among groups, the cornhole game will determine which organization gets theme preference. Members of all organizations are encouraged to come and cheer on their teams or enjoy pizza and drinks.",
+    "location": "The Cherrydale House",
+    "starts_on": "2021-09-23T22:00:00+00:00",
+    "ends_on": "2021-09-23T23:30:00+00:00",
+    "org_name": "Student Alumni Council",
+    "org_id": 183426,
+    "category_names": [
+      "Social Programmatic"
+    ],
+    "theme": "Social",
+    "visibility": "Public"
+  }
+]
