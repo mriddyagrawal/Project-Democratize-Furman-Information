@@ -8,4 +8,8 @@ dependencies = [
     "openpyxl>=3.1.5",
     "requests>=2.33.1",
     "tqdm>=4.67.3",
+    "httpx>=0.28.1",
+    "playwright>=1.58.0",
+    "python-dotenv>=1.0.0",
+    "selectolax>=0.4.7",
 ]
