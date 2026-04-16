@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 **/auth_session/
 uv.lock
+Course Catalog/__pycache__/

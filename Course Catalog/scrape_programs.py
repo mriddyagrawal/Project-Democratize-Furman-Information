@@ -1,4 +1,4 @@
-"""Scrape Furman University 2025-2026 program requirements into an Excel spreadsheet."""
+"""Download all Furman 2025-2026 program pages as raw HTML files."""
 
 from __future__ import annotations
 
@@ -10,7 +10,6 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
-from openpyxl import Workbook
 from tqdm import tqdm
 
 BASE = "https://catalog.furman.edu"
@@ -21,26 +20,17 @@ DELAY = 0.5
 
 DATA_DIR = Path(__file__).parent / "Program Details"
 DATA_DIR.mkdir(exist_ok=True)
+HTML_DIR = DATA_DIR / "html"
+HTML_DIR.mkdir(exist_ok=True)
 POIDS_FILE = DATA_DIR / "poids.json"
-RAW_FILE = DATA_DIR / "programs_raw.json"
-XLSX_FILE = DATA_DIR / "furman_programs_2025_2026.xlsx"
 
 SESSION = requests.Session()
 SESSION.headers.update(
     {"User-Agent": "Mozilla/5.0 (catalog-scraper; educational use)"}
 )
 
-DEGREE_PATTERNS = [
-    (r"\bB\.?A\.?\b", "B.A."),
-    (r"\bB\.?S\.?\b", "B.S."),
-    (r"\bB\.?M\.?\b", "B.M."),
-    (r"\bB\.?Mus\.?\b", "B.M."),
-    (r"\bMinor\b", "Minor"),
-]
-
 
 def collect_programs() -> list[dict]:
-    """Collect all program IDs, names, and departments from the listing page."""
     print("Fetching program listing page...", flush=True)
     r = SESSION.get(LISTING_URL, timeout=30)
     r.raise_for_status()
@@ -65,74 +55,15 @@ def collect_programs() -> list[dict]:
         dept = heading.get_text(strip=True) if heading else ""
         programs.append({"poid": poid, "name": name, "department": dept})
 
-    print(f"Found {len(programs)} programs across {len(set(p['department'] for p in programs))} departments.")
+    print(
+        f"Found {len(programs)} programs across "
+        f"{len(set(p['department'] for p in programs))} departments."
+    )
     return programs
 
 
-def classify_degree(name: str) -> str:
-    for pattern, label in DEGREE_PATTERNS:
-        if re.search(pattern, name):
-            return label
-    return ""
-
-
-def extract_program(html: str) -> str:
-    """Extract program requirements text from a detail page."""
-    soup = BeautifulSoup(html, "html.parser")
-    cores = soup.find_all("div", class_="acalog-core")
-    if not cores:
-        td = soup.find("td", class_="block_content")
-        if td:
-            text = td.get_text("\n", strip=True)
-            start = 0
-            for marker in ["must include:", "must complete:", "requires:", "Required"]:
-                idx = text.find(marker)
-                if idx >= 0:
-                    start = idx
-                    break
-            end = text.find("Return to:")
-            if end < 0:
-                end = text.find("Back to Top")
-            if end > 0:
-                text = text[start:end]
-            else:
-                text = text[start:]
-            return text.strip()
-        return ""
-
-    sections: list[str] = []
-    for core in cores:
-        h2 = core.find("h2")
-        header = h2.get_text(strip=True) if h2 else ""
-        items: list[str] = []
-        for li in core.find_all("li", class_="acalog-course"):
-            items.append(li.get_text(" ", strip=True))
-        body_parts: list[str] = []
-        for child in core.children:
-            if child.name == "h2":
-                continue
-            if child.name == "hr":
-                continue
-            if child.name == "ul":
-                continue
-            if hasattr(child, "get_text"):
-                t = child.get_text(" ", strip=True)
-                if t:
-                    body_parts.append(t)
-            elif isinstance(child, str) and child.strip():
-                body_parts.append(child.strip())
-
-        section_text = ""
-        if header:
-            section_text += header + "\n"
-        if body_parts:
-            section_text += "\n".join(body_parts) + "\n"
-        if items:
-            section_text += "\n".join(f"  {item}" for item in items) + "\n"
-        if section_text.strip():
-            sections.append(section_text.strip())
-
-    return "\n\n".join(sections)
+def sanitize_filename(name: str) -> str:
+    return re.sub(r"[^\w\s\-.,()]", "", name).strip().replace(" ", "_")
 
 
 def main() -> None:
@@ -144,17 +75,16 @@ def main() -> None:
         POIDS_FILE.write_text(json.dumps(programs, indent=2))
         print(f"Saved {len(programs)} programs to {POIDS_FILE.name}")
 
-    if RAW_FILE.exists():
-        results = json.loads(RAW_FILE.read_text())
-        done = {r["poid"] for r in results}
-        print(f"Resuming: {len(done)} programs already fetched.")
-    else:
-        results = []
-        done = set()
+    already = {f.stem.split("_poid")[0] for f in HTML_DIR.glob("*.html")}
+    remaining = [p for p in programs if sanitize_filename(p["name"]) not in already]
 
-    remaining = [p for p in programs if p["poid"] not in done]
-    pbar = tqdm(remaining, desc="Scraping programs", unit="program",
-                initial=len(done), total=len(programs))
+    pbar = tqdm(
+        remaining,
+        desc="Downloading programs",
+        unit="program",
+        initial=len(programs) - len(remaining),
+        total=len(programs),
+    )
     for prog in pbar:
         poid = prog["poid"]
         pbar.set_postfix_str(prog["name"][:40])
@@ -170,40 +100,16 @@ def main() -> None:
                 tqdm.write(f"  error (attempt {attempt}/3): {e}; waiting {wait}s")
                 time.sleep(wait)
         if r is None or not r.ok:
-            tqdm.write(f"  SKIPPED poid={poid} after 3 failures")
+            tqdm.write(f"  SKIPPED poid={poid} ({prog['name']})")
             continue
 
-        requirements = extract_program(r.text)
-        degree_type = classify_degree(prog["name"])
-
-        results.append({
-            "poid": poid,
-            "department": prog["department"],
-            "name": prog["name"],
-            "degree_type": degree_type,
-            "requirements": requirements,
-        })
-
+        filename = f"{sanitize_filename(prog['name'])}_poid{poid}.html"
+        (HTML_DIR / filename).write_text(r.text, encoding="utf-8")
         time.sleep(DELAY)
 
-    RAW_FILE.write_text(json.dumps(results, indent=2))
-    print(f"Fetched {len(results)} programs. Saved to {RAW_FILE.name}.")
-
-    results_sorted = sorted(results, key=lambda p: (p["department"], p["name"]))
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "Programs 2025-2026"
-    headers = ["Department", "Program Name", "Degree Type", "Full Requirements Text"]
-    ws.append(headers)
-    for p in results_sorted:
-        ws.append([p["department"], p["name"], p["degree_type"], p["requirements"]])
-
-    widths = [30, 50, 12, 120]
-    for col, w in enumerate(widths, start=1):
-        ws.column_dimensions[ws.cell(row=1, column=col).column_letter].width = w
-
-    wb.save(XLSX_FILE)
-    print(f"Wrote {len(results_sorted)} rows to {XLSX_FILE}")
+    pbar.close()
+    total = len(list(HTML_DIR.glob("*.html")))
+    print(f"Done. {total} HTML files saved to {HTML_DIR}")
 
 
 if __name__ == "__main__":
