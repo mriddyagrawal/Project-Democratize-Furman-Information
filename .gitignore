@@ -3,4 +3,4 @@
 __pycache__/
 *.pyc
 **/auth_session/
-**/data/
+uv.lock

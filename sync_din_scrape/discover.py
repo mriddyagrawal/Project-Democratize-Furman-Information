@@ -1,6 +1,8 @@
 """Stage 1: Discover all organizations from Furman Engage API."""
 
+import html
 import json
+import re
 from pathlib import Path
 
 import httpx
@@ -11,6 +13,18 @@ BASE = "https://furman.campuslabs.com/engage/api/discovery/search/organizations"
 PAGE_SIZE = 25
 HERE = Path(__file__).parent
 OUTPUT = HERE / "data" / "orgs.json"
+
+
+def _strip_html(text: str | None) -> str:
+    """Remove HTML tags and decode entities into clean plain text."""
+    if not text:
+        return ""
+    text = html.unescape(text)
+    text = re.sub(r"<br\s*/?>", "\n", text)
+    text = re.sub(r"</p>\s*<p>", "\n\n", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
 def fetch_all_orgs() -> list[dict]:
@@ -35,18 +49,14 @@ def fetch_all_orgs() -> list[dict]:
 
             for item in items:
                 orgs.append({
-                    "id": item["Id"],
                     "name": item["Name"],
                     "short_name": item.get("ShortName", ""),
                     "slug": item["WebsiteKey"],
                     "status": item.get("Status", ""),
                     "visibility": item.get("Visibility", ""),
                     "category_names": item.get("CategoryNames", []),
-                    "description": item.get("Description", ""),
-                    "summary": item.get("Summary", ""),
-                    "profile_picture": item.get("ProfilePicture", ""),
-                    "branch_id": item.get("BranchId"),
-                    "parent_org_id": item.get("ParentOrganizationId"),
+                    "description": _strip_html(item.get("Description", "")),
+                    "summary": (item.get("Summary") or "").strip(),
                 })
 
             print(f"  fetched {len(orgs)} orgs (skip={skip})")
