@@ -183,9 +183,9 @@ async def _download_file(
 
     folder_path = doc.get("folder_path", "")
     if folder_path:
-        # Preserve the original folder hierarchy
+        # Preserve DIN's folder hierarchy verbatim, then group by year inside
         safe_folder = Path(*[_slugify(p) for p in folder_path.split("/")])
-        dest_dir = org_dir / "documents" / "folders" / safe_folder
+        dest_dir = org_dir / "documents" / safe_folder / year
     else:
         dest_dir = org_dir / "documents" / year
     dest_dir.mkdir(parents=True, exist_ok=True)
